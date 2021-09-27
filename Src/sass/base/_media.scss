@@ -28,6 +28,22 @@
             }
         }
     }
+    .catalog {
+        padding: 0 50px 100px 50px;
+        &__tab {
+            width: 190px;
+            height: 45px;
+            line-height: 40px;
+        }
+        &__content {
+            justify-content: space-around;
+        }
+    }
+    .reviews {
+        &__text {
+            width: 490px;
+        }
+    }
 }
 @media (max-width:767px) {
     .header {
@@ -70,6 +86,26 @@
             }
         }
     }
+    .catalog {
+        &__tab {
+           font-size: 14px;
+        }
+    }
+    .reviews {
+        &__clients {
+            flex-direction: column;
+            text-align: center;
+        }
+        &__client {
+            margin-right: 0;
+        } 
+        &__name {
+            margin-top: 13px;
+        }
+    }
+   
+    
+    
 }
 @media (max-width:575px) {
     .promo {
@@ -137,6 +173,40 @@
                 width: 250px;
                 height: 200px;
             }
+        }
+    }
+    .catalog {
+        h2 {
+            font-size: 20px;
+        }
+        &__tabs {
+            margin-top: 40px;
+            flex-direction: column;
+        }
+        &__tab {
+            margin-bottom: 15px;
+        }
+        &-item {
+            &__list {
+                padding-right: 10px;
+            }
+            &__subtitle {
+                font-size: 13px;
+            }
+            &__descr {
+                margin: 0 auto;
+                margin-top: 10px;
+                width: 180px;
+                font-size: 12px;
+            }
+        }
+    }
+    .reviews {
+        &__title {
+            font-size: 20px;
+        }
+        &__text {
+            width: 260px;
         }
     }
 }
