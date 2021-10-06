@@ -103,6 +103,23 @@
             margin-top: 13px;
         }
     }
+    .footer {
+        &__info {
+            width: 430px;
+        }
+        &__addr {
+            font-size: 17px;
+        }
+        &__phone {
+            font-size: 17px;
+        }
+        &__social {
+            img {
+                width: 49px;
+                height: 47px;
+            }
+        }
+    }
    
     
     
@@ -152,12 +169,25 @@
         &__descr {
             font-size: 14px;
         }
-    }
-    .feed-form {
-        width: 250px;
-        input {
-            height: 40px;
+        .feed-form {
+            width: 100%;
         }
+    }
+    .overlay {
+        .modal {
+            width: 250px;
+        .feed-form {
+            width: 100%;
+            input {
+               height: 40px;
+            }
+        }
+        .modal__close {
+            right: -25px;
+            font-size: 30px;
+            line-height: 20px;
+        }    
+    }
     }
     .button {
         &_submit {
@@ -207,6 +237,11 @@
         }
         &__text {
             width: 260px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 320px;
         }
     }
 }
